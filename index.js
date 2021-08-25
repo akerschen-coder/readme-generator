@@ -34,12 +34,25 @@ inquirer
             type: 'input',
             name: 'installation',
             message: 'How do you install the app?',
+            default: 'npm i',
         },
         //how to use
         {
             type: 'input',
-            name: 'howtouse',
+            name: 'usage',
             message: 'How do you use your app?',
+        },
+        //contribution 
+        {
+            type: 'input',
+            name: 'contributing',
+            message: 'How do you contribute to the repo?',
+        },
+        //test 
+        {
+            type: 'input',
+            name: 'test',
+            message: 'How do you test your app?',
         },
 
         //what liscenses used
@@ -58,5 +71,4 @@ inquirer
   }
     
     
-
 
